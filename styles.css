@@ -1,0 +1,30 @@
+/* Custom Styles */
+body {
+    body {
+        padding-top: 56px; /* For fixed navbar */
+        background-color: #fcce7e !important; /* Ganti dengan warna yang diinginkan */
+    }
+    
+
+header .logo {
+    max-width: 150px; /* Adjust logo size */
+}
+
+footer {
+    font-size: 16px; /* Adjust footer font size */
+}
+
+.nav-link {
+    font-size: 16px; /* Adjust font size for nav links */
+}
+
+@media (max-width: 576px) {
+    .nav-link {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+.navbar-brand {
+    background-color: #28a745; /* Ganti dengan warna yang diinginkan */
+    color: white; /* Pastikan warna teks kontras */
+}
+
